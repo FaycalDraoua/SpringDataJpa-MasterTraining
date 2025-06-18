@@ -41,8 +41,6 @@ public class Application {
         CommandLineRunner runner (StudentRepository studentRepository){
 
             return args -> {
-                //Methode pour ajouter des donnees dans la base de donnee
-                getFakerData(studentRepository);
 
                 // Methode pour trier les donnees dans la base de donnee
                 sortingMethode(studentRepository);
